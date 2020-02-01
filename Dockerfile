@@ -6,5 +6,5 @@ WORKDIR /hello-world
 
 ARG PORT=8667
 
-CMD npm run start
+CMD npm install && npm run start
 EXPOSE $PORT
